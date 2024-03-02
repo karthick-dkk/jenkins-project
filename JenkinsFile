@@ -7,5 +7,12 @@ pipeline {
         sh 'echo Mohan '
       }
     }
+
+stage('Build') {
+      steps {
+        sh 'echo Build Success'
+        sh 'echo Bye'
+      }
+    }
  }
 }
